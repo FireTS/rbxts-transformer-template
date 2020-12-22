@@ -23,6 +23,7 @@ export interface TransformerConfig {
  */
 export default function (program: ts.Program, config: TransformerConfig) {
 	return (context: ts.TransformationContext): ((file: ts.SourceFile) => ts.Node) => {
+		Context.Instance = undefined!;
 		const transformContext = new Context(program, config, context, stages);
 		let transformed: Map<ts.SourceFile, ts.SourceFile>;
 		return (file: ts.SourceFile) => {
