@@ -1,4 +1,4 @@
-# rbxts-transformer-framework
+# rbxts-transformer-template
 This is a simple template framework that simplifies creating transformers.
 It allows you to transform code in stages, as well as communicate to past and future stages.
 
