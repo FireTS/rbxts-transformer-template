@@ -1,10 +1,13 @@
 {
 	"name": "rbxts-transformer-template",
-	"version": "1.0.0",
-	"description": "",
+	"version": "0.0.1",
+	"description": "A template transformer",
 	"main": "out/index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+	"author": "Fireboltofdeath <fireboltofpublic@gmail.com> (https://github.com/Fireboltofdeath)",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FireTS/rbxts-transformer-template.git"
 	},
 	"dependencies": {
 		"byots": "4.1.0-dev.20201102.16.32",
@@ -19,6 +22,7 @@
 		"eslint-plugin-prettier": "^3.2.0",
 		"prettier": "^2.2.1"
 	},
-	"author": "Fireboltofdeath",
-	"license": "ISC"
+	"files": [
+		"out"
+	]
 }
